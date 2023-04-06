@@ -1,0 +1,90 @@
+body {
+    width: 100vw;
+    font-family: 'Roboto Slab', serif !important;
+}
+/* hero section */
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    background-color: black;
+    opacity: 0.7;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+/* form secction */
+.wrapper {
+    background-color: antiquewhite;
+    padding: 100px 0px;
+}
+
+.acc-wrapper {
+    background-color: antiquewhite !important;
+    margin: 20px 40px;
+}
+
+.image-p {
+    position: absolute;
+    right: 41%;
+    top: -11%;
+}
+
+.card-wrapper {
+    padding: 40px 0px;
+}
+
+.form-wrapper {
+    padding: 0px 100px !important;
+    margin: 70px!important;
+}
+
+/* card section badge */
+.badge-wrap {
+    border-radius: 20px !important;
+}
+
+footer {
+    background-color: rgb(49, 49, 105);
+    padding: 70px 0px;
+}
+
+.button-item {
+    margin: auto !important;
+}
+
+.card-items {
+    padding: 100px 0px;
+}
+
+.call-item {
+    padding: 60px 20px !important;
+}
+
+.cards {
+    padding: 80px 0px;
+}
+
+.form-item {
+    padding: 60px 0px;
+}
+
+.text {
+    margin-bottom: 40px !important;
+}
